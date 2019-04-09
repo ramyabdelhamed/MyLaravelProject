@@ -1,0 +1,20 @@
+ <script>
+        var i;
+        function changedivfun() {
+            var changedivarr = [document.getElementById("divchange1"), document.getElementById("divchange2"), document.getElementById("divchange3")];
+
+            for ( i = 0; i < changedivarr.length; i++) {
+                if (changedivarr[i].style.float = "right") {
+                    changedivarr[i].style.float = "left";
+                }
+                else {
+                    changedivarr[i].style.float = "right";
+                }
+
+            }
+
+        }
+        setInterval('changedivfun()', 1000);
+
+
+    </script>
